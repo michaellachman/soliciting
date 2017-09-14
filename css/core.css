@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+body {
+	text-align: center;
+	font-size: 12px;
+	padding: 30px 0;	
+}
+body,a {
+	color: #333;
+}
+h1   {
+    font-size:300%;
+    font-family: 'Apple Chancery', cursive;
+
+}
+
+.rainbow {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: 'Shojumaru', cursive;
+  border: none;
+  color: rgba(0, 0, 0, 0);
+  text-align: left;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 3px 0 0 rgb(217,31,38) , 6px 0 0 rgb(226,91,14) , 9px 0 0 rgb(245,221,8) , 12px 0 0 rgb(5,148,68) , 15px 0 0 rgb(2,135,206) , 18px 0 0 rgb(4,77,145) , 21px 0 0 rgb(42,21,113) ;
+  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  text-decoration: none;
+}
+
+#wrapper {
+	margin: 0 auto;
+}
+
+#info {
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+}
+
+#infopage {
+  text-align: left;
+  padding: 40px;
+      font-family: 'Apple Chancery', cursive;
+}
+
+#thnx {
+	position: fixed;
+	bottom: 20px;
+	left: 0px;
+}
+
+.pics {  
+	padding: 0;  
+    margin:  0;  
+    cursor: pointer;
+    margin: 0 auto;
+} 
+ 
+.pics img {  
+	height: auto;
+	width: auto;
+    max-height: 420px;  
+    vertical-align: middle;
+    position:absolute;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+} 
+
