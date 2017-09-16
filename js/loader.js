@@ -3,5 +3,5 @@ $(window).on("load", function() {
     $(".loading").fadeTo(500, 0, function() {
       $(".pics").fadeTo(500, 1)
     })
-    
+
 });
