@@ -108,7 +108,7 @@ h1   {
 }
 .loading > img {
   margin: 0 auto;
-  display: block;
+  /* display: block; */
   position: fixed;
   left: 0;
   right: 0;
