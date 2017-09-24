@@ -7,7 +7,8 @@
 body {
 	text-align: center;
 	font-size: 12px;
-	padding: 30px 0;
+  padding: 30px 0;
+
 }
 body,a {
 	color: #333;
@@ -43,7 +44,7 @@ h1   {
 }
 
 #wrapper {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 #info {
@@ -67,16 +68,16 @@ h1   {
 .pics {
   opacity: 0;
 	padding: 0;
-    margin:  0;
-    cursor: pointer;
-    margin: 0 auto;
+  margin:  0;
+  cursor: pointer;
+  margin: 0 auto;
 }
-.pics .loader {
+.pics {
   height: auto;
 	width: auto;
-    max-height: 420px;
-    vertical-align: middle;
-    position:absolute;
+  max-height: 420px;
+  vertical-align: middle;
+  position:absolute;
 	margin:auto;
 	top:0;
 	bottom:0;
@@ -84,20 +85,19 @@ h1   {
 	right:0;
 }
 
-
-.pics img {
+.pics > img {
 	height: auto;
 	width: auto;
-    max-height: 420px;
-    vertical-align: middle;
-    position:absolute;
+  max-height: 420px;
+  vertical-align: middle;
+  position:absolute;
 	margin:auto;
 	top:0;
 	bottom:0;
 	left:0;
 	right:0;
 }
-
+/* 
 .loading > h1 {
   position: fixed;
   left: 0;
@@ -105,7 +105,7 @@ h1   {
   text-align: center;
   margin-top: 150px;
   font-size: 4.5em;
-}
+} */
 .loading > img {
   margin: 0 auto;
   /* display: block; */
@@ -114,4 +114,11 @@ h1   {
   right: 0;
   margin-top: 50px;
   max-height: 350px;
+}
+
+.counter {
+  position: fixed;
+  bottom: 75px;
+  left: 0;
+  right: 0;
 }
