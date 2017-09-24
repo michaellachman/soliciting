@@ -79,20 +79,21 @@ h1   {
   max-height: 420px;
   vertical-align: middle;
   position:absolute;
-	margin:auto;
+	margin-top: 50px;
 	top:0;
 	bottom:0;
 	left:0;
 	right:0;
 }
 
-.pics img {
+.pics > img {
 	height: auto;
 	width: auto;
   max-height: 420px;
   vertical-align: middle;
   position:absolute;
 	margin:auto;
+  margin-top: 50px;
 	top:0;
 	bottom:0;
 	left:0;
@@ -109,10 +110,17 @@ h1   {
 } */
 .loading > img {
   margin: 0 auto;
-  /* display: block; */
   position: fixed;
   left: 0;
   right: 0;
   margin-top: 50px;
   max-height: 350px;
+}
+
+.counter {
+  margin: 0 auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 50px;
 }
